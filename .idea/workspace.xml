@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9784fea5-6e41-41ee-a97a-02e5bdd57c0c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-v3.3/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-v3.3/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-v3.3/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-v3.3/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-v3.3/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-v3.3/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-v3.3/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-v3.3/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-v3.3/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-v3.3/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-v3.3/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-v3.3/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/photoswipe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/responsive_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/relishpro/Relish Pro Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/relishpro/Relish Pro Condensed Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/relishpro/Relish Pro Condensed Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/relishpro/Relish Pro Condensed Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/relishpro/Relish Pro Condensed Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/relishpro/Relish Pro Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/relishpro/Relish Pro Light Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/relishpro/Relish Pro Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/relishpro/Relish Pro Medium Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/relishpro/Relish Pro Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/relishpro/Relish_Pro.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/roboto/Roboto-Bold-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/roboto/Roboto-Light-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/roboto/Roboto-Regular-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/background2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/background3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/img5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/img6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/img7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_about.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_animate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_banner.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_charts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_curriculum.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_hobbies_slogan.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_normalize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_pace-theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_portfolio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_skills.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/mixins/_cls_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/mixins/_font-face.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/sass/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kxkogGnYVPz6cJin9gxxOJwF5O" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+    <property name="vuejs.nuxt.types-notification-shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets/bootstrap-v3.3" />
+      <recent name="$PROJECT_DIR$/assets/css" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/assets/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets/img" />
+      <recent name="$PROJECT_DIR$/public/assets" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/assets/js" />
+      <recent name="$PROJECT_DIR$/public/assets/css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9784fea5-6e41-41ee-a97a-02e5bdd57c0c" name="Default Changelist" comment="" />
+      <created>1606649806420</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606649806420</updated>
+      <workItem from="1606649807910" duration="5489000" />
+      <workItem from="1606667615569" duration="7611000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
