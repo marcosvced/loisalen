@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9784fea5-6e41-41ee-a97a-02e5bdd57c0c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/loisalen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/loisalen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/responsive_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/responsive_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606649806420</updated>
       <workItem from="1606649807910" duration="5489000" />
-      <workItem from="1606667615569" duration="24814000" />
+      <workItem from="1606667615569" duration="28732000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1606675546998</created>
@@ -82,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607209037473</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix videos">
+      <created>1607209226913</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607209226913</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +128,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="update gallery, bio, links and styles&#10;added videos" />
-    <option name="LAST_COMMIT_MESSAGE" value="update gallery, bio, links and styles&#10;added videos" />
+    <MESSAGE value="fix videos" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix videos" />
   </component>
 </project>

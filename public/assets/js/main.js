@@ -43,8 +43,6 @@ $(document).ready(function () {
       }
     },
     callbacks: {
-      open: function () {
-      },
       close: function () {
         // fixed a bug on map.
         $('#map').css('position', 'static');
@@ -58,13 +56,16 @@ $(document).ready(function () {
     mainClass: 'mfp-fade',
     removalDelay: 160,
     preloader: true,
-    fixedContentPos: false
+    fixedContentPos: true,
+    gallery: {
+      enabled: true
+    }
   })
 
   $('.popup-with-zoom-anim').magnificPopup({
     type: 'inline',
 
-    fixedContentPos: false,
+    fixedContentPos: true,
     fixedBgPos: true,
 
     overflowY: 'auto',

@@ -92,6 +92,27 @@
     }
 }
 
+
+@media only screen and (min-width: 1024px) {
+    section.main.style2.right.dark.fullscreen{
+        width: 75%;
+    }
+
+    #bio {
+        padding: 40px;
+        width: 75vw;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    section.main.style2.right.dark.fullscreen{
+        width: 50%;
+    }
+    #bio {
+        padding: 40px;
+        width: 60vw;
+    }
+}
 #nav-icon {
     width: 100%;
     position: relative;
