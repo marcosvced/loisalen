@@ -10,71 +10,68 @@
  * 8. Footer
  * 9. Gallery
  **************************/
-/*
- * 0. Font imports
- */
-@import 'https://fonts.googleapis.com/css?family=Amatica+SC';
-@import 'http://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800';
-@import 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900';
+:root {
+    --color: #1f3317;
+    --accent: #13a699;
+    --darken: #0a5953;
+    --light: #fff;
+}
 
 html {
     line-height: 1.5;
+    font-size: 16px;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 /*
  * 1. Generic
  */
 body {
-    font-family: 'Raleway', Arial, sans-serif;
-    color: #666;
-    background-color: #fff;
+    font-family: 'Mulish', sans-serif;
+    color: var(--color);
+    background-color: var(--light);
     font-weight: 400;
-    -webkit-font-smoothing: antialiased;
     position: relative;
     top: 0;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 h1 {
     font-size: 40px;
     font-weight: 800;
-    text-transform: uppercase;
 }
 
 h2 {
-    font-size: 36px;
-    font-weight: normal;
-    text-transform: uppercase;
-}
-
-h3 {
-    font-size: 28px;
-    font-weight: 600;
-}
-
-h4 {
-    font-size: 16px;
-    font-weight: 800;
-    text-transform: uppercase;
-}
-
-h5 {
-    font-size: 14px;
-    font-weight: 300;
-    text-transform: uppercase;
-}
-
-h6 {
-    font-size: 12px;
-    line-height: 18px;
-}
-
-header i.lni {
     font-size: 3rem;
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 + p {
+    opacity: .65;
+}
+
+header .icon {
+    font-size: 3.5rem;
 }
 
 a:not(.arrow-footer) {
-    color: #13a699;
+    color: var(--accent);
     text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+a:not(.arrow-footer) > .icon {
+    font-size: 1.25rem;
+    margin-left: 10px;
+    transition: all .3s ease-in-out;
+}
+
+a:not(.arrow-footer):hover > .icon {
+    margin-left: 20px;
 }
 
 label {
@@ -88,12 +85,12 @@ button {
 
 a:not(.arrow-footer):hover,
 a:not(.arrow-footer):focus {
-    color: #0a5953;
+    color: var(--darken);
     text-decoration: none;
 }
 
 p {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.5;
 }
 
@@ -120,9 +117,6 @@ p {
     margin-bottom: 10%;
 }
 
-.heigth_hundred {
-    height: 100vh;
-}
 
 .padding_ten {
     padding: 15% 15% 5%;
@@ -130,20 +124,61 @@ p {
 
 .page-section h2,
 .content.box.style2 h2 {
-    font-size: 5rem;
     margin-bottom: .5em;
 }
 
-.padding_seven {
-    padding: 7%;
+.icon {
+    width: 1em;
+    height: 1em;
 }
 
 /*
  * 2. Header
  */
+.navbar {
+    background: var(--light);
+}
+
+.navbar-collapse.collapse {
+    display: flex !important;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    height: 0;
+    transition: height .4s ease-in-out;
+    max-height: 100vh;
+    border: 0;
+}
+
+.navbar-collapse.collapse.in {
+    height: 100vh;
+}
+
 .navbar-brand {
-    font-family: 'Amatica SC', cursive;
+    color: var(--color) !important;
+    font-weight: 400;
     font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.nav.navbar-nav {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav.navbar-nav li a {
+    color: var(--color);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.nav.navbar-nav li:hover a {
+    color: var(--accent);
 }
 
 .background {
@@ -154,7 +189,7 @@ p {
 }
 
 .over {
-    background-color: rgba(59, 59, 59, 0.42);
+    background-color: rgba(0, 0, 0, 0.42);
     height: 100vh;
     position: relative;
 }
@@ -163,7 +198,7 @@ p {
  * 3. Background Intro
  */
 .background#intro {
-    background: url("../img/background.jpg") no-repeat center;
+    background: url("../img/img10.jpg") no-repeat top left;
     background-size: cover;
     position: relative;
 }
@@ -180,9 +215,8 @@ p {
 }
 
 .background#intro h2 {
-    font-size: 8rem;
+    font-size: clamp(5rem, 6vw, 8rem);
     text-transform: none;
-    font-weight: bold;
 }
 
 .down, .down {
@@ -214,7 +248,7 @@ footer.arrow {
  * 4. Background One
  */
 .background#about {
-    background: url("https://images.unsplash.com/photo-1475744214834-0cb9be6eb226?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2700&q=80") no-repeat center;
+    background: url("https://images.pexels.com/photos/4709838/pexels-photo-4709838.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat center;
     background-size: cover;
 }
 
@@ -231,26 +265,9 @@ section.main.style2.right.dark.fullscreen {
 .popup-with-zoom-anim {
     display: flex;
     align-items: center;
-    padding: 40px;
-    padding-left: 0;
+    padding: 40px 40px 40px 0;
 }
 
-.popup-with-zoom-anim i {
-    padding-left: 10px;
-    transition: padding-left .35s ease-in-out;
-}
-
-.popup-with-zoom-anim:hover i {
-    padding-left: 20px;
-}
-
-/**
-* 5 Videos
- */
-
-#video .project-item {
-    height: 300px;
-}
 
 /*
  * 6. My Work
@@ -258,18 +275,9 @@ section.main.style2.right.dark.fullscreen {
 .projects-holder {
     margin-right: 0;
     margin-left: 0;
-    /*height: 500px;*/
     overflow: hidden;
     position: relative;
 }
-
-/*.projects-holder .overlay {
-    height: 250px;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    background: linear-gradient(to top, white, transparent);
-}*/
 
 .projects-holder .col-md-4,
 .projects-holder .col-md-6 {
@@ -277,10 +285,34 @@ section.main.style2.right.dark.fullscreen {
     padding-left: 1px;
 }
 
+#gallery .projects-holder {
+    max-height: 600px;
+    transition: all .4s ease-in-out;
+}
+
+#gallery .projects-holder.--open {
+    max-height: 5000px;
+}
+
+#gallery .action {
+    cursor: pointer;
+    color: var(--accent);
+    padding: 1.25rem;
+    text-align: center;
+    display: block;
+    transition: all .25s ease-in-out;
+}
+#gallery .action:hover {
+    color: var(--darken);
+}
+#gallery .action.--none {
+    display: none;
+}
+
 .project-item {
     display: block;
     width: 100%;
-    height: 350px;
+    height: 300px;
     margin-bottom: 2px;
     overflow: hidden;
     position: relative;
@@ -315,7 +347,7 @@ section.main.style2.right.dark.fullscreen {
     transition: all 200ms linear;
 }
 
-.project-hover i {
+.project-hover .icon {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -323,9 +355,7 @@ section.main.style2.right.dark.fullscreen {
     right: 0;
     margin: auto;
     color: rgba(255, 255, 255, .65);
-    font-size: 5rem;
-    width: min-content;
-    height: min-content;
+    font-size: 3rem;
 }
 
 .project-hover .inside {
@@ -338,7 +368,7 @@ section.main.style2.right.dark.fullscreen {
 }
 
 .project-hover h5 {
-    font-size: 16px;
+    font-size: 1rem;
     margin-bottom: 15px;
 }
 
@@ -355,6 +385,95 @@ section.main.style2.right.dark.fullscreen {
 .page-section header {
     text-align: center;
     padding: 10%;
+}
+
+/* Interviews */
+#interviews {
+    position: relative;
+    padding-bottom: 4rem;
+}
+
+#interviews:before {
+    content: "";
+    z-index: -1;
+    left: -100vw;
+    height: 100%;
+    width: 200vw;
+    position: absolute;
+    background: rgba(31, 51, 23, .05);
+}
+
+.interview:not(:last-child) {
+    margin-bottom: 4rem;
+}
+
+
+.interview:last-child .info-wrapper *:first-child {
+    margin-right: 0;
+}
+
+.interview:last-child .info-wrapper > *:last-child {
+    text-align: right;
+    margin-right: 1.25rem;
+}
+
+.interview:last-child .info-wrapper {
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+
+.interview > p {
+    margin-bottom: 2rem;
+}
+
+.interview > a {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin-bottom: 2rem;
+}
+
+.interview > a .icon {
+    font-size: 1.25rem;
+    margin-left: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.interview > a:hover .icon {
+    font-size: 1.25rem;
+    margin-left: 20px;
+}
+
+.interview .info-wrapper {
+    display: flex;
+    grid-template-columns: min-content 1fr;
+
+}
+
+.interview .info-wrapper > *:first-child {
+    margin-right: 1.25rem;
+}
+
+.interview .info-wrapper .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    overflow: hidden;
+    background: var(--color);
+}
+
+.interview .info-wrapper .avatar img {
+    width: 100%;
+}
+
+.interview .info-wrapper .info p {
+    margin-bottom: 5px;
+    opacity: .65;
+}
+
+.interview .info-wrapper .info p:first-child {
+    font-weight: bold;
+    opacity: 1;
 }
 
 /*
@@ -391,14 +510,14 @@ section.main.style2.right.dark.fullscreen {
 
 .button:disabled {
     background: #a3ccc7;
-    pointer-events: none;
+    cursor: not-allowed;
 }
 
-.button:focus {
+.button:focus:not(:disabled) {
     outline: 4px solid rgba(19, 166, 153, .25);
 }
 
-.button:hover {
+.button:hover:not(:disabled) {
     background: #0a5953;
     box-shadow: 0 15px 30px -20px rgb(10 89 83);
 }
@@ -406,7 +525,8 @@ section.main.style2.right.dark.fullscreen {
 /*
  * 8. Footer
  */
-#footer p.copyright-text {
+#footer p a.copyright-text {
+    color: var(--darken);
     margin: 40px 0;
     font-size: 13px;
 }
@@ -415,14 +535,6 @@ section.main.style2.right.dark.fullscreen {
     clear: both;
 }
 
-.t-social2 {
-    padding: 0 5% 0;
-}
-
-.t-social2 a {
-    font-size: 25px;
-    padding: 1.5%;
-}
 
 .loader {
     border: 16px solid #f3f3f3; /* Light grey */
@@ -442,13 +554,7 @@ section.main.style2.right.dark.fullscreen {
     }
 }
 
-.popup-with-zoom-anim {
-    width: fit-content;
-    font-weight: bolder;
-}
-.popup-with-zoom-anim i{
-    font-size: 2rem;
-}
+
 /*Dialog*/
 /* Styles for dialog window */
 #bio {
@@ -461,7 +567,7 @@ section.main.style2.right.dark.fullscreen {
     position: absolute;
     left: 50%;
     top: 50%;
-    height: fit-content;
+    height: min-content;
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
@@ -477,13 +583,13 @@ section.main.style2.right.dark.fullscreen {
     overflow-y: auto;
     padding-right: 20px;
     margin-right: -20px;
+    min-height: 35vh;
 }
 
 
 /**
  * Fade-zoom animation for first dialog
  */
-
 
 
 /* start state */

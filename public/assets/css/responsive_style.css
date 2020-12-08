@@ -21,10 +21,6 @@
         border: 0 solid transparent;
     }
 
-    div#bs-example-navbar-collapse-1 {
-        height: 100vh;
-        min-height: 100vh;
-    }
 
     .project-item {
         height: auto;
@@ -36,7 +32,7 @@
     }
 
     #about {
-        padding: 2rem;
+        padding: 1rem;
     }
 
     #about,
@@ -110,9 +106,38 @@
     }
     #bio {
         padding: 40px;
-        width: 60vw;
+        width: 50vw;
     }
 }
+
+@media only screen and (min-width: 560px){
+    .navbar-collapse.collapse {
+        display: block !important;
+    }
+
+    .nav.navbar-nav li a {
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+    #gallery .projects-holder.--open {
+        max-height: 1000px;
+    }
+}
+
+@media only screen and (min-width: 560px) {
+    .interview:last-child > p {
+        margin-left: 25%;
+    }
+
+    .interview:last-child > a {
+        margin-left: 25%;
+    }
+    .interview > p {
+        max-width: 75%;
+    }
+}
+
 #nav-icon {
     width: 100%;
     position: relative;

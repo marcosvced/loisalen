@@ -1,13 +1,22 @@
 $(document).ready(function () {
+  const galleryItem = $('#gallery .project-item')
+  const videoItem = $('#video .project-item')
+  const popup = $('.popup-with-zoom-anim')
   // GLOBAL
+  feather.replace({
+    class: 'icon',
+    'stroke-width': 1,
+    width: 'none',
+    height: 'none'
+  })
 
   //if mobile
   if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     $('.project-hover').css('display', 'none')
     $('.project-item').css('height', 'auto')
   } else {
-    $('#video .project-item').imagefill()
-    $('#gallery .project-item').imagefill()
+    videoItem.imagefill()
+    galleryItem.imagefill()
   }
 
   $('a:not(.project-item)').click(function () {
@@ -19,12 +28,23 @@ $(document).ready(function () {
 
   // NAVBAR
 
-  $('.navbar-toggle').click(function () {
+  $('.nav.navbar-nav li a').click(function () {
     $('#nav-icon').toggleClass('open')
-    $('div#bs-example-navbar-collapse-1').stop(true, true).slideToggle()
+    $('.navbar-collapse').toggleClass('in')
   })
 
-  $('#gallery .project-item').magnificPopup({
+  $('.navbar-toggle').click(function () {
+    $('#nav-icon').toggleClass('open')
+    $('.navbar-collapse').toggleClass('in')
+  })
+
+  $('#gallery .action').click(function () {
+    $('#gallery .action').toggleClass('--none')
+    $('#gallery .projects-holder').toggleClass('--open')
+  })
+
+
+  galleryItem.magnificPopup({
     type: 'image',
     closeOnContentClick: false,
     closeBtnInside: false,
@@ -39,18 +59,18 @@ $(document).ready(function () {
       enabled: true,
       duration: 300, // don't forget to change the duration also in CSS
       opener: function (element) {
-        return element.find('img');
+        return element.find('img')
       }
     },
     callbacks: {
       close: function () {
         // fixed a bug on map.
-        $('#map').css('position', 'static');
+        $('#map').css('position', 'static')
       }
     }
   })
 
-  $('#video .project-item').magnificPopup({
+  videoItem.magnificPopup({
     disableOn: 700,
     type: 'iframe',
     mainClass: 'mfp-fade',
@@ -62,7 +82,7 @@ $(document).ready(function () {
     }
   })
 
-  $('.popup-with-zoom-anim').magnificPopup({
+  popup.magnificPopup({
     type: 'inline',
 
     fixedContentPos: true,
@@ -76,7 +96,7 @@ $(document).ready(function () {
     midClick: true,
     removalDelay: 300,
     mainClass: 'my-mfp-zoom-in'
-  });
+  })
 
   // CONTACT
 
