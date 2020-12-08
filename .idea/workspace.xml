@@ -66,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606649806420</updated>
       <workItem from="1606649807910" duration="5489000" />
-      <workItem from="1606667615569" duration="44333000" />
+      <workItem from="1606667615569" duration="44507000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1606675546998</created>
@@ -110,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607449237822</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update metatags">
+      <created>1607449278095</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607449278095</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +154,7 @@
     <MESSAGE value="update styles" />
     <MESSAGE value="collapse pictures and navbar" />
     <MESSAGE value="added metatags" />
-    <option name="LAST_COMMIT_MESSAGE" value="added metatags" />
+    <MESSAGE value="update metatags" />
+    <option name="LAST_COMMIT_MESSAGE" value="update metatags" />
   </component>
 </project>
