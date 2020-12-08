@@ -19,13 +19,12 @@ $(document).ready(function () {
     galleryItem.imagefill()
   }
 
-  $('[data-spy="scroll"]').each(function () {
-    var $spy = $(this).scrollspy('refresh')
-  })
+  $('body').scrollspy({target: ".navbar", offset: 50});
+
 
   $('a:not(.project-item)').click(function () {
     $('html, body').animate({
-      scrollTop: $($(this).attr('href')).offset().top
+      scrollTop: $($(this).attr('href')).offset().top - 50
     }, 1000)
     return false
   })
