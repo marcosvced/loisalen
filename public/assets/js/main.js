@@ -30,7 +30,6 @@ $(document).ready(function () {
   })
 
   // NAVBAR
-
   $('.nav.navbar-nav li a').click(function () {
     $('#nav-icon').toggleClass('open')
     $('.navbar-collapse').toggleClass('in')
