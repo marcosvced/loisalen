@@ -544,6 +544,7 @@ section.main.style2.right.dark.fullscreen {
  * 8. Footer
  */
 #footer p a.copyright-text {
+    display: block;
     color: var(--darken);
     margin: 40px 0;
     font-size: 13px;
