@@ -19,6 +19,10 @@ $(document).ready(function () {
     galleryItem.imagefill()
   }
 
+  $('[data-spy="scroll"]').each(function () {
+    var $spy = $(this).scrollspy('refresh')
+  })
+
   $('a:not(.project-item)').click(function () {
     $('html, body').animate({
       scrollTop: $($(this).attr('href')).offset().top

@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9784fea5-6e41-41ee-a97a-02e5bdd57c0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/css/img/cmm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/img/saxrules.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/img10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/img8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/img9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/loisalen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/loisalen.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/responsive_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/responsive_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/img7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/img7.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
@@ -79,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606649806420</updated>
       <workItem from="1606649807910" duration="5489000" />
-      <workItem from="1606667615569" duration="42261000" />
+      <workItem from="1606667615569" duration="44287000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1606675546998</created>
@@ -109,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607256627002</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="collapse pictures and navbar">
+      <created>1607441702455</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607441702455</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +141,7 @@
     <MESSAGE value="update gallery, bio, links and styles&#10;added videos" />
     <MESSAGE value="fix videos" />
     <MESSAGE value="update styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="update styles" />
+    <MESSAGE value="collapse pictures and navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="collapse pictures and navbar" />
   </component>
 </project>

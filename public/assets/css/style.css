@@ -175,6 +175,23 @@ p {
     color: var(--color);
     font-size: 2.5rem;
     margin-bottom: 1rem;
+    background: transparent !important;
+    position: relative;
+}
+.nav.navbar-nav li a:before {
+    content: "";
+    height: 4px;
+    width: 0;
+    position: absolute;
+    background: var(--darken);
+    left: 0;
+    top: calc(50% + 2px);
+    transform: translateY(-50%);
+    transition: width .4s ease-in-out;
+}
+
+.nav.navbar-nav li.active a:before {
+    width: 100%;
 }
 
 .nav.navbar-nav li:hover a {
@@ -390,7 +407,8 @@ section.main.style2.right.dark.fullscreen {
 /* Interviews */
 #interviews {
     position: relative;
-    padding-bottom: 4rem;
+    padding-bottom: 10%;
+    margin-top: 10%;
 }
 
 #interviews:before {
