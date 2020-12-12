@@ -19,7 +19,7 @@
 
 html {
     line-height: 1.5;
-    font-size: 16px;
+    font-size: inherit;
     width: 100vw;
     overflow-x: hidden;
 }
@@ -39,12 +39,12 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 800;
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: normal;
     font-family: 'Raleway', sans-serif;
 }
@@ -217,6 +217,7 @@ p {
 .background#intro {
     background: url("../img/img10.jpg") no-repeat top left;
     background-size: cover;
+    background-position-y: 3.125rem;
     position: relative;
 }
 
@@ -265,7 +266,7 @@ footer.arrow {
  * 4. Background One
  */
 .background#about {
-    background: url("https://images.pexels.com/photos/4709838/pexels-photo-4709838.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat center;
+    background: url("../img/img11.jpg") no-repeat center;
     background-size: cover;
 }
 
@@ -308,7 +309,7 @@ section.main.style2.right.dark.fullscreen {
 }
 
 #gallery .projects-holder.--open {
-    max-height: 5000px;
+    max-height: 3020px;
 }
 
 #gallery .action {

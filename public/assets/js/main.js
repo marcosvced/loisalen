@@ -13,19 +13,22 @@ $(document).ready(function () {
   //if mobile
   if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     $('.project-hover').css('display', 'none')
-    $('.project-item').css('height', 'auto')
-  } else {
-    videoItem.imagefill()
-    galleryItem.imagefill()
   }
 
-  $('body').scrollspy({target: ".navbar", offset: 50});
+  videoItem.imagefill()
+  galleryItem.imagefill()
 
+  $('body').scrollspy({
+    target: '.navbar',
+    offset: 60
+  })
 
-  $('a:not(.project-item)').click(function () {
-    $('html, body').animate({
-      scrollTop: $($(this).attr('href')).offset().top - 50
-    }, 1000)
+  $('.navbar a').click(function () {
+    smoothScroll($(this).attr('href'))
+    return false
+  })
+  $('a.arrow-footer').click(function () {
+    smoothScroll($(this).attr('href'))
     return false
   })
 
@@ -44,7 +47,6 @@ $(document).ready(function () {
     $('#gallery .action').toggleClass('--none')
     $('#gallery .projects-holder').toggleClass('--open')
   })
-
 
   galleryItem.magnificPopup({
     type: 'image',
@@ -139,4 +141,10 @@ function isFormCompleted () {
   const isCompleted = !!!($('#name').val().trim() && $('#email').val().trim() && $('#message').val().trim())
   $('#btn-contact').prop('disabled', isCompleted)
   return isCompleted
+}
+
+function smoothScroll (hash) {
+  $('html, body').animate({
+    scrollTop: $(hash).offset().top - 50
+  }, 1000)
 }

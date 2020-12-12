@@ -16,20 +16,7 @@
     }
 }
 
-@media only screen and (max-width: 767px) {
-    .navbar-toggle {
-        border: 0 solid transparent;
-    }
-
-
-    .project-item {
-        height: auto;
-    }
-
-    .background#intro{
-        background:  url("../img/img2.jpg") no-repeat  left;
-        background-size: cover;
-    }
+@media only screen and (max-width: 1023px) {
 
     #about {
         padding: 1rem;
@@ -47,6 +34,17 @@
         right: 0;
         transform: none;
         height: min-content;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-toggle {
+        border: 0 solid transparent;
+    }
+
+    .background#intro {
+        background: url("../img/img2.jpg") no-repeat left;
+        background-size: cover;
     }
 
     div.container#photos {
@@ -90,7 +88,7 @@
 
 
 @media only screen and (min-width: 1024px) {
-    section.main.style2.right.dark.fullscreen{
+    section.main.style2.right.dark.fullscreen {
         width: 75%;
     }
 
@@ -101,16 +99,17 @@
 }
 
 @media only screen and (min-width: 1440px) {
-    section.main.style2.right.dark.fullscreen{
+    section.main.style2.right.dark.fullscreen {
         width: 50%;
     }
+
     #bio {
         padding: 40px;
         width: 50vw;
     }
 }
 
-@media only screen and (min-width: 560px){
+@media only screen and (min-width: 560px) {
     .navbar-collapse.collapse {
         display: block !important;
     }
@@ -123,9 +122,7 @@
     #gallery .projects-holder.--open {
         max-height: 1000px;
     }
-}
 
-@media only screen and (min-width: 560px) {
     .interview:last-child > p {
         margin-left: 25%;
     }
@@ -133,6 +130,7 @@
     .interview:last-child > a {
         margin-left: 25%;
     }
+
     .interview > p {
         max-width: 75%;
     }
