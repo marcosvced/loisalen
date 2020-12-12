@@ -283,7 +283,7 @@ section.main.style2.right.dark.fullscreen {
 .popup-with-zoom-anim {
     display: flex;
     align-items: center;
-    padding: 40px 40px 40px 0;
+    padding: 40px 40px 0 0;
 }
 
 

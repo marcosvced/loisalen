@@ -56,36 +56,6 @@
     }
 }
 
-@media only screen and (max-width: 400px) {
-    .testimonial1 h3,
-    .testimonial2 h3 {
-        font-size: 18px;
-        font-weight: 600;
-    }
-
-    #owl-testimonial2 .item {
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    #testimonial .testimonial2 .owl-prev {
-        left: -7%
-    }
-
-    #testimonial .testimonial2 .owl-next {
-        right: -7%
-    }
-
-    .promo1 {
-        margin: 20px
-    }
-
-    h2,
-    .h2 {
-        font-size: 20px
-    }
-}
-
 
 @media only screen and (min-width: 1024px) {
     section.main.style2.right.dark.fullscreen {
@@ -108,6 +78,7 @@
         width: 50vw;
     }
 }
+
 
 @media only screen and (min-width: 560px) {
     .navbar-collapse.collapse {
@@ -133,6 +104,13 @@
 
     .interview > p {
         max-width: 75%;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    #gallery .projects-holder.--open {
+        max-height: 1510px;
     }
 }
 
