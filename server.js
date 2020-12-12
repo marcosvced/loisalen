@@ -24,7 +24,6 @@ express()
   .post('/email', urlencodedParser, (req, res) => {
     //Send an email here but currently dummy email
     console.log('Data:', req.body);
-    res.json({ message: 'Message received!' })
 
 
     const email = {
@@ -36,8 +35,10 @@ express()
 
     TRANSPORTER.sendMail(email, (error, info) => {
       if (error) {
+        res.end({ message: 'Message received!' })
         console.log(error);
       } else {
+        res.end('ko')
         console.log('Email sent: ' + info.response);
       }
     });

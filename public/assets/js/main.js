@@ -106,11 +106,11 @@ $(document).ready(function () {
 
   isFormCompleted()
 
-  $('input').change(function () {
+  $('input').on('input',function () {
     isFormCompleted()
   })
 
-  $('textarea').change(function () {
+  $('textarea').on('input',function () {
     isFormCompleted()
   })
 
@@ -126,11 +126,14 @@ $(document).ready(function () {
     }
     if (name && email && text) {
       $.post('/email', data, function () {
-        console.log('Server received your data')
 
         $('#name').val('')
         $('#email').val('')
         $('#message').val('')
+      }).done( function () {
+        alert( "The message has been sent successfully. Thank you for contacting me" );
+      }).fail(function (){
+        alert( "An error has occurred when sending the message. Please try again" );
       })
     }
   })
