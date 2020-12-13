@@ -119,22 +119,23 @@ $(document).ready(function () {
     const email = $('#email').val().trim()
     const text = $('#message').val().trim()
 
-    const data = {
-      name,
-      email,
-      text
-    }
-    if (name && email && text) {
-      $.post('/email', data, function () {
 
-        $('#name').val('')
-        $('#email').val('')
-        $('#message').val('')
-      }).done( function () {
-        alert( "The message has been sent successfully. Thank you for contacting me" );
-      }).fail(function (){
-        alert( "An error has occurred when sending the message. Please try again" );
-      })
+    if (name && email && text) {
+      if (name && email && text) {
+        $.ajax({
+          url: 'http://localhost:9000/.netlify/functions/server/email',
+          type: 'post',
+          dataType: 'json',
+          data: {
+            name,
+            email,
+            text
+          },
+          success: function (data) {
+            console.log(data)
+          }
+        })
+      }
     }
   })
 
