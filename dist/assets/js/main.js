@@ -123,7 +123,7 @@ $(document).ready(function () {
     if (name && email && text) {
       if (name && email && text) {
         $.ajax({
-          url: 'http://localhost:9000/.netlify/functions/server/email',
+          url: 'https://relaxed-dijkstra-68e53b.netlify.app/.netlify/functions/server/email',
           type: 'post',
           dataType: 'json',
           data: {

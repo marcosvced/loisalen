@@ -2,78 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9784fea5-6e41-41ee-a97a-02e5bdd57c0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/netlify.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/bootstrap-v3.3/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/bootstrap-v3.3/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/bootstrap-v3.3/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/bootstrap-v3.3/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/bootstrap-v3.3/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/bootstrap-v3.3/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/bootstrap-v3.3/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/bootstrap-v3.3/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/bootstrap-v3.3/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/bootstrap-v3.3/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/bootstrap-v3.3/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/bootstrap-v3.3/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/bootstrap-v3.3/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/bootstrap-v3.3/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/bootstrap-v3.3/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/bootstrap-v3.3/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/bootstrap-v3.3/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/bootstrap-v3.3/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/bootstrap-v3.3/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/bootstrap-v3.3/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/bootstrap-v3.3/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/bootstrap-v3.3/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/bootstrap-v3.3/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/bootstrap-v3.3/js/npm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/img/cmm.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/img/cmm.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/img/dark-arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/img/dark-arrow.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/img/saxrules.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/img/saxrules.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/magnific-popup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/magnific-popup.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/magnific-popup.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/responsive_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/responsive_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/responsive_style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/responsive_style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/relishpro/Relish Pro Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/fonts/relishpro/Relish Pro Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/relishpro/Relish Pro Condensed Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/fonts/relishpro/Relish Pro Condensed Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/relishpro/Relish Pro Condensed Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/fonts/relishpro/Relish Pro Condensed Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/relishpro/Relish Pro Condensed Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/fonts/relishpro/Relish Pro Condensed Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/relishpro/Relish Pro Condensed Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/fonts/relishpro/Relish Pro Condensed Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/relishpro/Relish Pro Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/fonts/relishpro/Relish Pro Italic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/relishpro/Relish Pro Light Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/fonts/relishpro/Relish Pro Light Italic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/relishpro/Relish Pro Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/fonts/relishpro/Relish Pro Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/relishpro/Relish Pro Medium Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/fonts/relishpro/Relish Pro Medium Italic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/relishpro/Relish Pro Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/fonts/relishpro/Relish Pro Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/relishpro/Relish_Pro.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/fonts/relishpro/Relish_Pro.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/roboto/Roboto-Bold-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/fonts/roboto/Roboto-Bold-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/roboto/Roboto-Light-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/fonts/roboto/Roboto-Light-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/roboto/Roboto-Regular-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/fonts/roboto/Roboto-Regular-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/card.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/card.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/cover1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/cover1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/cover2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/cover2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/cover3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/cover3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/cover4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/cover4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/img1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/img10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/img10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/img11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/img11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/img2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/img3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/img3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/img4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/img4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/img5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/img5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/img6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/img6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/img7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/img7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/img8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/img8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/img9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/img9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/main.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/vendor/imagesloaded.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/vendor/imagesloaded.pkgd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/vendor/jquery-imagefill.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/vendor/jquery-imagefill.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/vendor/jquery.magnific-popup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/vendor/jquery.magnific-popup.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/vendor/photoswipe-ui-default.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/vendor/photoswipe-ui-default.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/vendor/photoswipe.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/vendor/photoswipe.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606649806420</updated>
       <workItem from="1606649807910" duration="5489000" />
-      <workItem from="1606667615569" duration="64938000" />
+      <workItem from="1606667615569" duration="65255000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1606675546998</created>
@@ -302,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607879680841</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="ntelify refactor">
+      <created>1607890001920</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1607890001921</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,6 +285,7 @@
     <MESSAGE value="new about me background.&#10;minor fixes" />
     <MESSAGE value="minor fixes" />
     <MESSAGE value="fix node" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix node" />
+    <MESSAGE value="ntelify refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="ntelify refactor" />
   </component>
 </project>
