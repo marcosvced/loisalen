@@ -20,8 +20,6 @@ router.post('/email', urlencodedParser, (req, res) => {
   res.header('Access-Control-Allow-Origin', '*')
   res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept')
 
-  //Send an email here but currently dummy email
-  console.log('Data:', req.body)
   const {
     name,
     email,
@@ -33,7 +31,6 @@ router.post('/email', urlencodedParser, (req, res) => {
     subject: `From: ${name}`,
     html: `<p><b>Email:</b> ${email}</p><br/><p><b>Message:</b> ${text}</p>`
   }
-  res.end(JSON.stringify(options))
 
   TRANSPORTER.sendMail(options).then(response => {
     res.end(JSON.stringify(response))
