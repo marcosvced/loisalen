@@ -29,7 +29,7 @@ router.post('/email', urlencodedParser, (req, res) => {
     from: process.env.EMAIL_FROM,
     to: process.env.EMAIL_TO,
     subject: `From: ${name}`,
-    html: `<p><b>Email:</b> ${email}</p><br/><p><b>Message:</b> ${text}</p>`
+    html: `<p><b>Email:</b> ${email}</p><br/><p><b>Message:</b>${text}</p>`
   }
 
   TRANSPORTER.sendMail(options).then(response => {
