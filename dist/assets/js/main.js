@@ -123,7 +123,7 @@ $(document).ready(function () {
     if (name && email && text) {
       if (name && email && text) {
         $.ajax({
-          url: 'https://relaxed-dijkstra-68e53b.netlify.app/.netlify/functions/server/email',
+          url: 'https://loisweb.netlify.app/.netlify/functions/server/email',
           type: 'post',
           dataType: 'json',
           data: {
@@ -132,7 +132,10 @@ $(document).ready(function () {
             text
           },
           success: function (data) {
-            console.log(data)
+            alert( "The message has been sent successfully. Thank you for contacting me" );
+          },
+          error: function (data) {
+            alert( "An error has occurred when sending the message. Please try again" );
           }
         })
       }
