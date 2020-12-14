@@ -123,7 +123,7 @@ $(document).ready(function () {
     if (name && email && text) {
       if (name && email && text) {
         $.ajax({
-          url: 'https://loisweb.netlify.app/.netlify/functions/server/email',
+          url: 'https://loisalen.netlify.app/.netlify/functions/server/email',
           type: 'post',
           dataType: 'json',
           data: {
